@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "YT Ad Skipper",
+  "version": "0.1.0",
+  "description": "Clicks YouTube's Skip Ad button as soon as it appears.",
+  "permissions": ["debugger"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*", "https://m.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
