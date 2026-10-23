@@ -7,3 +7,7 @@ mouse click through the DevTools protocol (`debugger` permission). Chrome shows 
 "started debugging this browser" bar for a moment on each skip.
 
 Install: `chrome://extensions` -> Developer mode -> Load unpacked -> this folder.
+
+## Support
+
+Free and stays free. If it saves you time, you can chip in on [Liberapay](https://liberapay.com/wintech-partners). Donations are optional and unlock nothing.
